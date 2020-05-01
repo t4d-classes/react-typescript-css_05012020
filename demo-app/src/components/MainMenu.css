@@ -1,0 +1,22 @@
+#main-menu {
+  grid-area: menu;
+  position: relative;
+  background-color: darkseagreen;
+}
+
+#main-menu > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+}
+
+.menu-item {
+  padding: 6px;
+  border: 1px;
+}

@@ -1,0 +1,14 @@
+#page-footer {
+  grid-area: footer;
+  background-color: darkturquoise;
+}
+
+#page-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-footer > small {
+  font-size: 0.7rem;
+}
